@@ -8,6 +8,10 @@
         Contratos
     </RouterLink>
 
+    <RouterLink to="/procesos">
+        Procesos disciplinarios
+    </RouterLink>
+
 </aside>
 
 </template>

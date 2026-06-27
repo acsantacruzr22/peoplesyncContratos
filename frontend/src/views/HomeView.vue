@@ -15,9 +15,6 @@
             novedades y demás procesos de Recursos Humanos.
         </p>
 
-        <router-link to="/contratos">
-            Ir al módulo de Contratos
-        </router-link>
 
     </div>
 
