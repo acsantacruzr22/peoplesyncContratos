@@ -5,8 +5,10 @@ import com.edu.sena.peoplesyncContratos.service.IContratoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:5173")
 @RequestMapping("/contratos")
 public class ContratoController {
 
