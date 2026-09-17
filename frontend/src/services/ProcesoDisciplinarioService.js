@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:8081/procesos'
+const API_URL = `${import.meta.env.VITE_API_URL}/procesos`
 
 export default {
 
@@ -23,5 +23,4 @@ export default {
   eliminar(id) {
     return axios.delete(`${API_URL}/${id}`)
   }
-
 }
