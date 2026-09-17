@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @RestController
 @CrossOrigin(origins = {
     "http://localhost:5173",
-    "http://localhost:4173"
+    "http://localhost:4173",
+    "https://melodious-perception-production-870a.up.railway.app"
 })
 @RequestMapping("/contratos")
 public class ContratoController {

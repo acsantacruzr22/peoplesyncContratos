@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/procesos")
 @CrossOrigin(origins = {
     "http://localhost:5173",
-    "http://localhost:4173"
+    "http://localhost:4173",
+    "https://melodious-perception-production-870a.up.railway.app"
 })
 public class ProcesoDisciplinarioController {
 
